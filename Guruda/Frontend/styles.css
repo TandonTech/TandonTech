@@ -1,0 +1,46 @@
+body {
+    font-family: "Abril Fatface", cursive;
+    margin: 0; 
+}
+    .headerBar {
+    display: flex;
+    align-items: center;
+    background-color: #d0d0d0;
+}
+    .headerBar h1 {
+    margin: 30px;
+    font-weight: normal ;
+    color: #191919;
+}
+    .headerBar a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+    .backgroundImage img {
+    width: 100vw;
+    height: 120vh;
+    overflow-y: hidden;
+    /* add blur */
+    filter: blur(8px);
+}
+    .headerBar a:link {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 30px;
+    color:#000000;
+    }
+
+    .headerBar a:visited {
+
+}
+    .headerBar a:hover,
+
+    .headerBar a:active {
+    background-color: #b9b9b9;
+    right: 0;
+}
+    .headerLinks {
+        margin-right: 30px;
+        margin-left: auto;
+        right: 0;
+    }
