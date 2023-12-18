@@ -1,5 +1,5 @@
 
-// alert("This website is currently under construction. It may not be fully functional.");
+alert("This website is currently under construction. It may not be fully functional.");
 
 
 
